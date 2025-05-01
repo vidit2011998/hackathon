@@ -78,15 +78,3 @@ df_filtered.boxplot(
 )
 ax2.set_ylabel("Willingness Rating (1-5)")
 st.pyplot(fig2)
-
-st.markdown("---")
-st.write("""
-**Instructions:** Save this file as `streamlit_dashboard.py` and run:
-```
-# Install dependencies if needed
-pip install streamlit pandas matplotlib
-
-# Run the app
-streamlit run streamlit_dashboard.py
-```
-""")
